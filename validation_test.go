@@ -11,7 +11,7 @@ type item struct {
 }
 
 type items struct {
-	Items []item `valid:"required,arrayValidator"`
+	Items []item `valid:"required,arrayStructValidator"`
 }
 
 func Test_ArrayValidator(t *testing.T) {
